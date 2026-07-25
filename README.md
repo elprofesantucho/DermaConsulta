@@ -41,3 +41,18 @@ DermaConsulta/
 ├── lanzar_agente.sh    # Script de despliegue (Podman + GPU + App)
 ├── requirements.txt    # Dependencias de Python
 └── README.md
+
+🚀 Guía de Inicio Rápido
+1. Clonar e instalar dependencias
+Bash
+git clone [https://github.com/elprofesantucho/DermaConsulta.git](https://github.com/elprofesantucho/DermaConsulta.git)
+cd DermaConsulta
+python3 -m venv env
+source env/bin/activate
+pip install -r requirements.txt
+2. Ejecutar la aplicación
+El script levanta el contenedor con acceso directo a la GPU Intel (/dev/dri) e inicia la interfaz:
+
+Bash
+chmod +x lanzar_agente.sh
+./lanzar_agente.sh
