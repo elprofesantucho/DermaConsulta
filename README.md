@@ -1,7 +1,9 @@
 <div align="center">
   <h1>🩺 DermaConsulta AI</h1>
-  <p><b>Asistente dermatológico multimodal (texto e imagen) acelerado en hardware local Intel Arc.</b></p>
-
+  <p><b>Asistente dermatológico multimodal.</b></p>
+<p align="center">
+  <img src="scree.png" alt="Captura de pantalla de DermaConsulta" width="700">
+</p>
   <p>
     <img src="https://img.shields.io/badge/Fedora_Linux_43-357EC7?style=for-the-badge&logo=fedora&logoColor=white" alt="Fedora 43" />
     <img src="https://img.shields.io/badge/Intel_Arc_B580-0071C5?style=for-the-badge&logo=intel&logoColor=white" alt="Intel Arc B580" />
@@ -14,7 +16,7 @@
 
 ## 📌 ¿Qué hace este proyecto?
 
-Analiza imágenes dermatológicas y responde consultas clínicas mediante modelos multimodales de visión y lenguaje (`llama3.2-vision:11b`). Todo corre de forma **100% local, privada y offline** sin enviar datos a APIs externas, aprovechando la aceleración por GPU Intel Arc.
+Analiza imágenes dermatológicas y responde consultas clínicas mediante modelos multimodales de visión y lenguaje (`llama3.2-vision:11b`). Todo corre de forma **100% local, privada y offline** sin enviar datos a APIs externas.
 
 ---
 
